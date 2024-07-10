@@ -1,0 +1,310 @@
+body {
+    background-color: rgb(79, 180, 146);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.calculatorColors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circleCellColors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+    margin-right: 10px;
+    border-radius: 50px;
+    padding: 15px;
+    min-width: 1vw;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    background: linear-gradient(to right, aqua, rgb(43, 255, 145), rgb(221, 255, 0), rgb(255, 170, 0), rgb(255, 0, 225));
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.calcColorsUL,
+.cellColorsUL {
+    visibility: hidden;
+}
+
+.aquaCalc {
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.limeCalc {
+    font-size: 20px;
+    background-color: rgb(43, 255, 145);
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.bananaCalc {
+    font-size: 20px;
+    background-color: rgb(221, 255, 0);
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.orangeCalc {
+    font-size: 20px;
+    background-color: rgb(255, 170, 0);
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.pinkCalc {
+    font-size: 20px;
+    background-color: rgb(255, 0, 225);
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.coolColorCalc {
+    font-size: 20px;
+    background: radial-gradient(#f69d3c, #3f87a6);
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.decentCalc {
+    font-size: 20px;
+    background: radial-gradient(aqua, rgb(169, 169, 169));
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.sunsetCalc {
+    font-size: 20px;
+    background: radial-gradient(yellow, rgb(255, 51, 0));
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.opticalIllusionsCalc {
+    font-size: 20px;
+    background: radial-gradient(black, white, black, white, black, white, black, white, black, white, black, white, black, white, black, white, black, white, black, white, black, white, black, white, black, white);
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.wineCalc {
+    font-size: 20px;
+    background: radial-gradient(pink, rgb(255, 90, 117), rgb(100, 13, 27));
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+
+.aquaCell {
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.limeCell {
+    font-size: 20px;
+    background-color: rgb(43, 255, 145);
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.bananaCell {
+    font-size: 20px;
+    background-color: rgb(221, 255, 0);
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.orangeCell {
+    font-size: 20px;
+    background-color: rgb(255, 170, 0);
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.pinkCell {
+    font-size: 20px;
+    background-color: rgb(255, 0, 225);
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.coolColorCell {
+    font-size: 20px;
+    background: radial-gradient(#f69d3c, #3f87a6);
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.decentCell {
+    font-size: 20px;
+    background: radial-gradient(aqua, rgb(169, 169, 169));
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.sunsetCell {
+    font-size: 20px;
+    background: radial-gradient(yellow, rgb(255, 51, 0));
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.whiteCell {
+    font-size: 20px;
+    background: white;
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.wineCell {
+    font-size: 20px;
+    background: radial-gradient(pink, rgb(255, 90, 117), rgb(100, 13, 27));
+    border-radius: 50px;
+    min-width: 1vw;
+    padding: 15px;
+    text-align: center;
+}
+
+.calculator {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 15vw;
+    background-color: aqua;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(62, 99, 99);
+    color: white;
+    width: 15vw;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.firstRow,
+.secondRow,
+.thirdRow,
+.fourthRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;
+}
+
+.headRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+}
+
+.circleCell {
+    font-size: 20px;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 50px;
+    padding: 15px;
+    min-width: 1vw;
+    text-align: center;
+}
+
+.circleCell:hover {
+    background-color: rgb(227, 232, 238);
+    border: 1px solid aliceblue;
+}
+
+.x {
+    margin-left: 18px;
+}
+
+.deleteResult {
+    font-size: 20px;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 50px;
+    padding: 15px;
+    min-width: 1vw;
+    text-align: center;
+    margin-right: 18px;
+}
